@@ -1,0 +1,106 @@
+.head{
+   margin-top: -30px;
+}
+
+.house{
+    background-image: url(../../images/house1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+   width: 1582px;
+    
+}
+
+
+ h1{
+    text-align: center;
+    padding: 10%;
+}
+
+p{
+    text-align: center;
+   
+     
+}
+
+.info{
+    color: #FFFFFF;
+}
+
+.p-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+.p-button button{
+    padding: 1rem 4rem;
+    background-color: #8077F6;
+    color: #EEEDFD;
+}
+
+
+.info .become{
+    background-color: #77B9F6;
+}
+
+.info .comm{
+    background-color: #7F76F5;
+}
+
+.info .neigh{
+    background-color: #F9BF2A;
+}
+
+
+.date{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.date .fa-calendar{
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #848B7E;
+    color: #FCFDFC;
+}
+
+.date .info{
+    line-height: 0.4rem;
+}
+
+.main-date{
+    display: flex;
+    align-items: center;
+    gap: 1300px;
+  
+    
+}
+
+
+.main-date .fa-arrow-down{
+      color: #FCFDFC;
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 20px;
+}
+
+.messages .fa-message{
+    border-radius: 1px solid ;
+    background-color: #F7BD2D;
+    border-radius: 30px;
+    padding: 15px;
+    color: #8077F6;
+    
+}
+
+.messages{
+    text-align: right;
+}
