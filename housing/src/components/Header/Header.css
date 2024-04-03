@@ -59,21 +59,25 @@ p{
     display: flex;
     align-items: center;
     padding: 1%;
-    gap: 10px;
+    gap: 15px;
     margin-top: 40px;
 }
 
+
+
 .date .fa-calendar{
     font-size: 1rem;
+    color: #FCFDFC;
+
     border: 1px solid;
     border-radius: 30px;
     padding: 20px;
-    background-color: #848B7E;
-    color: #FCFDFC;
+    background-color: #8E9587;
 }
 
 .date .info{
     line-height: 0.4rem;
+    text-align: justify;
 }
 
 .main-date{
@@ -85,10 +89,14 @@ p{
 }
 
 
+
+.main-date .arrow{
+    border: 1px solid;
+      border-radius: 30px;
+
+}
 .main-date .fa-arrow-down{
       color: #FCFDFC;
-      border: 1px solid;
-      border-radius: 30px;
       padding: 20px;
 }
 

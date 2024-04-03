@@ -28,9 +28,12 @@ const Head = () =>{
 
             <div className="main-date">
             <div className="date">
+              <div className="calen">
               <i className="fa-solid fa-calendar"></i>
+              </div>
+             
               <div className="info">
-              <p>Coming in</p>
+              <p>Coming in <br /></p>
               <h2>Q4 2024</h2>
               </div>
 
