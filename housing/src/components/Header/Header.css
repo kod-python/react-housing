@@ -98,9 +98,222 @@ p{
     border-radius: 30px;
     padding: 15px;
     color: #8077F6;
+    margin-top: 10px;
     
 }
 
 .messages{
     text-align: right;
 }
+
+
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc .bring{
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.welcome .welcome-text{
+    background-color: #8077F6;
+    padding: 3px
+}
+
+.welcome h2{
+   color: #FCFCFC;
+}
+
+.desc .bring{
+    color: #FCFCFC;
+}
+
+.desc .stream{
+    color: #FCFCFC;
+    text-align: justify;
+    text-transform: capitalize;
+
+}
+
+
+.back-img{
+    background-image: url(../../images/house1.jpeg);
+    background-image: url(../../images/house1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 1582px;
+}
+
+
+.back-img .back-main{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+    padding: 10%;
+}
+
+
+.back-img .img-inf{
+text-align: left;
+color: #FCFCFC;
+background-color:#121212 ;
+width: 360px;
+padding: 15px;
+border-radius: 5px;
+}
+
+.back-img .img-round{
+    border: 3px solid;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.person-info{
+    display: flex;
+    gap: 10px;
+}
+
+.card h2{
+    color: #FCFCFC;
+}
+.card p{
+    color: #89898F;
+    text-align: justify;
+}
+
+.card{
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.person .john{
+    color:#FCFCFC ;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.person .person-image{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 2px;
+}
+
+.card2 .fa-check{
+    color: #FFFFFF;
+    border: 2px solid;
+    border-radius: 30px;
+  padding: 1px;
+   
+}
+
+.card2 .ca-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card2 p{
+color: #FCFCFC;
+}
+
+.card2{
+    background-color: #64D4A5;
+    width: 340px;
+    height: 70px;
+    border-radius: 2px;
+    padding: 10px;
+ 
+}
+
+.card2 .votes{
+    margin-top: -10px;
+}
+
+
+.card3{
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    margin-top: 80px;
+}
+
+.card3 .img-response{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 1px;
+    
+}
+
+.card3 h2{
+    color: #FCFDFC;
+}
+
+.card3 .hood{
+    background-color: #8077F6;
+    padding: 5px;
+}
+
+.card3 .img-response1{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 1px;
+    margin-left: -15px;
+    z-index: -1;
+}
+
+.card3 .img-response2{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 1px;
+    margin-left: -15px;
+   
+}
+
+
+
+
+.card3 .img-response3{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 1px;
+    margin-left: -15px;
+}
+
+.card3 .img-church{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+
+.card3 .card3-church{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #131313;
+   
+}
+
+.card3 .fa-city{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
